@@ -304,7 +304,7 @@ SlotMachine_StopWheel1Early:
 .loop
 	ld a, [hli]
 	cp SLOTS7 >> 8
-	jr c, .stopWheel ; condition never true
+	jr z, .stopWheel
 	dec c
 	jr nz, .loop
 	ret
