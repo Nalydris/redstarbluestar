@@ -436,8 +436,13 @@ GiovanniAI:
 
 CooltrainerMAI:
 	cp $40
+	ld a, $A
+	call AICheckIfHPBelowFraction
+	jp c, AIUseHyperPotion
+	ld a, 5
+	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseXAttack
+	jp AISwitchIfEnoughMons
 
 CooltrainerFAI:
 	cp $40
