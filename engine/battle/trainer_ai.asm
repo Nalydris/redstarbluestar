@@ -429,7 +429,10 @@ BlackbeltAI:
 GiovanniAI:
 	cp $40
 	ret nc
-	jp AIUseGuardSpec
+	ld a, $A
+	call AICheckIfHPBelowFraction
+	ret nc
+	jp AIUseHyperPotion
 
 CooltrainerMAI:
 	cp $40
@@ -456,12 +459,12 @@ BrockAI:
 MistyAI:
 	cp $40
 	ret nc
-	jp AIUseXDefend
+	jp AIUseXSpecial
 
 LtSurgeAI:
 	cp $40
 	ret nc
-	jp AIUseXSpeed
+	jp AIUseXDefense
 
 ErikaAI:
 	cp $80
@@ -474,7 +477,7 @@ ErikaAI:
 KogaAI:
 	cp $40
 	ret nc
-	jp AIUseXAttack
+	jp AIUseXSpeed
 
 BlaineAI:
 	cp $40
@@ -482,7 +485,7 @@ BlaineAI:
 	ld a, $A
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+	jp AIUseHyperPotion
 
 SabrinaAI:
 	cp $40
@@ -514,22 +517,25 @@ LoreleiAI:
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+	jp AIUseFullRestore
 
 BrunoAI:
-	cp $40
+	cp $80
 	ret nc
-	jp AIUseXDefend
+	ld a, 5
+	call AICheckIfHPBelowFraction
+	ret nc
+	jp AIUseFullRestore
 
 AgathaAI:
 	cp $14
 	jp c, AISwitchIfEnoughMons
 	cp $80
 	ret nc
-	ld a, 4
+	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseSuperPotion
+	jp AIUseFullRestore
 
 LanceAI:
 	cp $80
@@ -537,7 +543,7 @@ LanceAI:
 	ld a, 5
 	call AICheckIfHPBelowFraction
 	ret nc
-	jp AIUseHyperPotion
+	jp AIUseFullRestore
 
 GenericAI:
 	and a ; clear carry
