@@ -53,10 +53,10 @@ _MtMoon3Text_49f99::
 	line "this is mine!@@"
 
 _MtMoon3BattleText2::
-	text "TEAM ROCKET will"
-	line "find the fossils,"
-	cont "revive and sell"
-	cont "them for cash!"
+	text "We've swiped all"
+	line "the moon stones,"
+	cont "now we'll take"
+	cont "those fossils!"
 	done
 
 _MtMoon3EndBattleText2::
@@ -65,9 +65,9 @@ _MtMoon3EndBattleText2::
 	prompt
 
 _MtMoon3AfterBattleText2::
-	text "You made me mad!"
+	text "You little punk!"
 	line "TEAM ROCKET will"
-	cont "blacklist you!"
+	cont "not forget you!"
 	done
 
 _MtMoon3BattleText3::
@@ -90,7 +90,7 @@ _MtMoon3AfterBattleText3::
 _MtMoon3BattleText4::
 	text "We're pulling a"
 	line "big job here!"
-	cont "Get lost, kid!"
+	cont "Get lost, brat!"
 	done
 
 _MtMoon3EndBattleText4::
@@ -105,9 +105,9 @@ _MtMoon3AfterBattleText4::
 	done
 
 _MtMoon3BattleText5::
-	text "Little kids"
+	text "Kids like you"
 	line "should leave"
-	cont "grown-ups alone!"
+	cont "adults alone!"
 	done
 
 _MtMoon3EndBattleText5::
