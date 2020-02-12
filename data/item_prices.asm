@@ -8,15 +8,15 @@ ItemPrices:
 	money 0     ; SURFBOARD
 	money 1000  ; SAFARI_BALL
 	money 0     ; POKEDEX
-	money 0     ; MOON_STONE
-	money 100   ; ANTIDOTE
-	money 250   ; BURN_HEAL
-	money 250   ; ICE_HEAL
+	money 4900  ; MOON_STONE
+	money 200   ; ANTIDOTE
+	money 200   ; BURN_HEAL
+	money 200   ; ICE_HEAL
 	money 200   ; AWAKENING
 	money 200   ; PARLYZ_HEAL
-	money 3000  ; FULL_RESTORE
-	money 2500  ; MAX_POTION
-	money 1500  ; HYPER_POTION
+	money 4000  ; FULL_RESTORE
+	money 3500  ; MAX_POTION
+	money 2800  ; HYPER_POTION
 	money 700   ; SUPER_POTION
 	money 300   ; POTION
 	money 0     ; BOULDERBADGE
@@ -30,9 +30,9 @@ ItemPrices:
 	money 550   ; ESCAPE_ROPE
 	money 350   ; REPEL
 	money 0     ; OLD_AMBER
-	money 2100  ; FIRE_STONE
-	money 2100  ; THUNDER_STONE
-	money 2100  ; WATER_STONE
+	money 4900  ; FIRE_STONE
+	money 4900  ; THUNDER_STONE
+	money 4900  ; WATER_STONE
 	money 9800  ; HP_UP
 	money 9800  ; PROTEIN
 	money 9800  ; IRON
@@ -44,29 +44,29 @@ ItemPrices:
 	money 0     ; SECRET_KEY
 	money 0     ; XXX
 	money 0     ; BIKE_VOUCHER
-	money 950   ; X_ACCURACY
-	money 2100  ; LEAF_STONE
+	money 500   ; X_ACCURACY
+	money 4900  ; LEAF_STONE
 	money 0     ; CARD_KEY
 	money 10000 ; NUGGET
-	money 2100  ; HEART_STONE
+	money 9800  ; HEART_STONE
 	money 1000  ; POKE_DOLL
 	money 600   ; FULL_HEAL
 	money 1500  ; REVIVE
 	money 4000  ; MAX_REVIVE
 	money 700   ; GUARD_SPEC
-	money 500   ; SUPER_REPEL
-	money 700   ; MAX_REPEL
-	money 650   ; DIRE_HIT
+	money 700   ; SUPER_REPEL
+	money 875   ; MAX_REPEL
+	money 500   ; DIRE_HIT
 	money 10    ; COIN
-	money 200   ; FRESH_WATER
-	money 300   ; SODA_POP
-	money 350   ; LEMONADE
+	money 700   ; FRESH_WATER
+	money 800   ; SODA_POP
+	money 1000  ; LEMONADE
 	money 0     ; S_S_TICKET
 	money 0     ; GOLD_TEETH
 	money 500   ; X_ATTACK
-	money 550   ; X_DEFEND
-	money 350   ; X_SPEED
-	money 350   ; X_SPECIAL
+	money 500   ; X_DEFEND
+	money 500   ; X_SPEED
+	money 500   ; X_SPECIAL
 	money 0     ; COIN_CASE
 	money 0     ; OAKS_PARCEL
 	money 0     ; ITEMFINDER
